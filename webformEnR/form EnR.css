@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    /* text-align: center; */
+    /* margin-top: 200px; */
+    background-image: url("34-rain-wallpaper-leafs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#web-form{
+    width: 350px;
+    margin: 150px auto;
+}
+input{
+    padding:5px;
+    background-color: #ECECEC;
+    border:1px solid;
+}
+#state{
+    background-color: #ECECEC;
+}
+#submit-btn{
+   width:80px;
+   padding: 5px;
+   text-align: center;
+   margin-left: 50px;
+   background-color: #2FA4FF;
+   border-width: 1px;
+   border-radius:15px;
+}
+#submit-btn:hover{
+    background-color: #2D31FA;
+}
+input:hover{
+    background-color: #28DF99;
+}
